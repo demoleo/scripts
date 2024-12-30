@@ -3,13 +3,13 @@ export UUID=${UUID:-'fc44fe6a-f083-4591-9c03-f8d61dc3907f'}
 export NEZHA_SERVER=${NEZHA_SERVER:-''} 
 export NEZHA_PORT=${NEZHA_PORT:-'5555'}     
 export NEZHA_KEY=${NEZHA_KEY:-''} 
-export ARGO_DOMAIN=${ARGO_DOMAIN:-''}   
-export ARGO_AUTH=${ARGO_AUTH:-''}    
-export CFIP=${CFIP:-'www.visa.com.tw'} 
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'argovless.925010.xyz'}   
+export ARGO_AUTH=${ARGO_AUTH:-'eyJhIjoiZTNiNGE4NTcwOTNhNjE4MGUxNTkyZmY4Mzk3MDQ1MmIiLCJ0IjoiZThhYzg3MTItNDczZS00MGVhLTg1YjYtMjI4MzgzYWU4ZWNlIiwicyI6IlpURmpOemcwTjJFdE16QmlOeTAwWm1FeUxUZzFOV0V0TUdObFpHSXdNamMyT0daaSJ9'}    
+export CFIP=${CFIP:-'162.159.252.236'} 
 export CFPORT=${CFPORT:-'8443'}         
 export NAME=${NAME:-'Serv00'}        
 export FILE_PATH=${FILE_PATH:-'./tmp'}
-export ARGO_PORT=${ARGO_PORT:-'10000'}
+export ARGO_PORT=${ARGO_PORT:-'46128'}
 
 bash -c 'ps aux | grep $(whoami) | grep -v "sshd\|bash\|grep" | awk "{print \$2}" | xargs -r kill -9 >/dev/null 2>&1' >/dev/null 2>&1
 clear
