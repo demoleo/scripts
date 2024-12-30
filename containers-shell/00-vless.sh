@@ -1,5 +1,5 @@
 #!/bin/bash
-export UUID=${UUID:-'fc44fe6a-f083-4591-9c03-f8d61dc3907f'}
+export UUID=${UUID:-'a22f143e-1b96-4e2e-b517-c6b2255b624a'}
 export NEZHA_SERVER=${NEZHA_SERVER:-''} 
 export NEZHA_PORT=${NEZHA_PORT:-'5555'}     
 export NEZHA_KEY=${NEZHA_KEY:-''} 
