@@ -1,15 +1,15 @@
 #!/bin/bash
-export UUID=${UUID:-'a22f143e-1b96-4e2e-b517-c6b2255b624a'}
+export UUID=${UUID:-'24825528-c9ef-4310-9346-e51b18e28e4c'}
 export NEZHA_SERVER=${NEZHA_SERVER:-''} 
 export NEZHA_PORT=${NEZHA_PORT:-'5555'}     
 export NEZHA_KEY=${NEZHA_KEY:-''} 
-export ARGO_DOMAIN=${ARGO_DOMAIN:-''}   
-export ARGO_AUTH=${ARGO_AUTH:-''}    
-export CFIP=${CFIP:-''} 
-export CFPORT=${CFPORT:-''}         
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'argo16.demo.nyc.mn'}   
+export ARGO_AUTH=${ARGO_AUTH:-'eyJhIjoiZTNiNGE4NTcwOTNhNjE4MGUxNTkyZmY4Mzk3MDQ1MmIiLCJ0IjoiNjIzOWFiMTQtNGE2Mi00ZDA3LWFkMGYtYjIwNWMwODRhZDUyIiwicyI6IlpqRTVOV1JrWTJFdFpEazBOUzAwWTJWbExXRXdPVEF0Wkdaa01qazRNV1l4TTJRMSJ9'}    
+export CFIP=${CFIP:-'162.159.252.236'} 
+export CFPORT=${CFPORT:-'8443'}         
 export NAME=${NAME:-'Serv00'}        
 export FILE_PATH=${FILE_PATH:-'./tmp'}
-export ARGO_PORT=${ARGO_PORT:-''}
+export ARGO_PORT=${ARGO_PORT:-'44391'}
 
 bash -c 'ps aux | grep $(whoami) | grep -v "sshd\|bash\|grep" | awk "{print \$2}" | xargs -r kill -9 >/dev/null 2>&1' >/dev/null 2>&1
 clear
